@@ -77,16 +77,6 @@
     </item>
     <item>
      <property name="text">
-      <string>Opus</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>FLAC</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
       <string>AVI</string>
      </property>
     </item>
@@ -107,6 +97,29 @@
     </property>
     <property name="text">
      <string>Convert to</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>94</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>461</width>
+      <height>271</height>
+     </rect>
     </property>
    </widget>
   </widget>

@@ -16,10 +16,13 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    QString format;
+    QString output;
+    QString file;
 
 private slots:
-    void handleButton();
-
+    void handlePicker();
+    void handleConvert();
 private:
     Ui::MainWindow *ui;
 };
