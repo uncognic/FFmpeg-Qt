@@ -16,7 +16,6 @@ void MainWindow::handleButton() {
         "Select media to convert",
         QString(),
         "Videos (*.mp4 *.mov *.avi *.mkv *.mpg *.mpeg);;"
-        "Audio (*.mp3 *.wav *.aac *.flac *.ogg *.opus);;"
         "All Media (*.*)"
         );
     if (file.isEmpty()) {
