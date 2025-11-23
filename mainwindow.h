@@ -24,6 +24,7 @@ private slots:
     void handlePicker();
     void handleConvert();
     void handleAbout();
+    void handleQuit();
 
 private:
     Ui::MainWindow *ui;
