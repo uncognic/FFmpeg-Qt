@@ -23,6 +23,8 @@ public:
 private slots:
     void handlePicker();
     void handleConvert();
+    void handleAbout();
+
 private:
     Ui::MainWindow *ui;
 };
